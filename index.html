@@ -1,12 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>cloning-gate</title>
+    <link href="/src/style.css" rel="stylesheet" />
+    <!-- <link rel="stylesheet" href="/src/style.css" /> -->
   </head>
   <body>
-    <h1>Hello world</h1>
+    <nav
+      class="bg-[url('/bg.jpeg')] bg-cover bg-center h-screen w-full p-5 text-white"
+    >
+      <div class="text-white flex justify-between items-center pb-10">
+        <div class="flex justify-center items-center gap-2">
+          <img src="/logo.svg" alt="logo" class="h-[60px]" />
+          <div>
+            <h2 class="border-b">UNIVERSITY OF</h2>
+            <h2 class="text-2xl">LIVERPOOL</h2>
+          </div>
+        </div>
+
+        <ul class="flex justify-center items-center gap-5">
+          <li class="cursor-pointer hover:underline">News</li>
+          <li class="cursor-pointer hover:underline">Jobs</li>
+          <li class="cursor-pointer hover:underline">Donate</li>
+          <li class="cursor-pointer hover:underline">A-Z</li>
+          <li class="cursor-pointer hover:underline">Alumni</li>
+          <li class="cursor-pointer hover:underline">Staff</li>
+          <li class="cursor-pointer hover:underline">Students</li>
+        </ul>
+      </div>
+      <div>
+        <div class="flex justify-between items-center">
+          <ul class="flex justify-center items-center gap-5">
+            <li class="cursor-pointer font-bold pb-2 hover:border-b-2 text-xl">
+              Study
+            </li>
+            <li class="cursor-pointer font-bold pb-2 hover:border-b-2 text-xl">
+              Student life
+            </li>
+            <li class="cursor-pointer font-bold pb-2 hover:border-b-2 text-xl">
+              Research and innovation
+            </li>
+            <li class="cursor-pointer font-bold pb-2 hover:border-b-2 text-xl">
+              Global
+            </li>
+            <li class="cursor-pointer font-bold pb-2 hover:border-b-2 text-xl">
+              About us
+            </li>
+          </ul>
+          <div class="flex justify-center items-center gap-4 bg-transparent">
+            <img src="/search.png" alt="searc icon" class="h-7" />
+            <input
+              type="text"
+              placeholder="Search the site"
+              class="outline-none"
+            />
+          </div>
+        </div>
+        <div class="mt-20 w-3/6">
+          <h1 class="uppercase text-5xl font-bold border-3 w-9/10 py-4 pl-2">
+            Make 2026 your year
+          </h1>
+          <p class="border-3 text-2xl py-7 px-2">
+            We offer a range of master’s courses in business and management,
+            allied health, computer science and engineering all available to
+            start in January 2026.
+          </p>
+          <p class="mt-5 border p-5 w-3/8 text-lg font-semibold">
+            Discover our <br />
+            January courses
+          </p>
+        </div>
+      </div>
+    </nav>
   </body>
 </html>
+
+<!-- bg-[url('/public/bg.jpeg')] -->
